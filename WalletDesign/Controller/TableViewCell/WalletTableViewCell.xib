@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf">
+            <string>NunitoSans-12ptExtraLight_Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WalletTableViewCell" rowHeight="91" id="KGk-i7-Jjw" customClass="WalletTableViewCell" customModule="WalletDesign" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="91"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="89v-HQ-lfg">
+                        <rect key="frame" x="10" y="10" width="325" height="75"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="EUb-OO-cdD">
+                                <rect key="frame" x="15" y="11" width="295" height="53.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0Hw-Sk-9cz">
+                                        <rect key="frame" x="0.0" y="0.0" width="196.5" height="53.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="12/05/2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TL-j3-gfC">
+                                                <rect key="frame" x="0.0" y="0.0" width="196.5" height="14.5"/>
+                                                <fontDescription key="fontDescription" name="NunitoSans-12ptExtraLight_Regular" family="Nunito Sans" pointSize="14"/>
+                                                <color key="textColor" systemColor="systemGray4Color"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UPI/123564789652369/@chidi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjJ-cG-VCs">
+                                                <rect key="frame" x="0.0" y="14.5" width="196.5" height="19.5"/>
+                                                <fontDescription key="fontDescription" name="NunitoSans-12ptExtraLight_Regular" family="Nunito Sans" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallet Top up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhC-XW-xb7">
+                                                <rect key="frame" x="0.0" y="34" width="196.5" height="19.5"/>
+                                                <fontDescription key="fontDescription" name="NunitoSans-12ptExtraLight_Regular" family="Nunito Sans" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="7p3-NQ-6Au">
+                                        <rect key="frame" x="196.5" y="0.0" width="98.5" height="49"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NzI-SC-k3c">
+                                                <rect key="frame" x="0.0" y="0.0" width="98.5" height="22"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3et-lv-e14">
+                                                        <rect key="frame" x="12" y="0.0" width="84.5" height="22"/>
+                                                        <fontDescription key="fontDescription" name="NunitoSans-12ptExtraLight_Regular" family="Nunito Sans" pointSize="16"/>
+                                                        <color key="textColor" red="0.0039215686269999999" green="0.52549019610000003" blue="0.31997001559999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="3et-lv-e14" firstAttribute="leading" secondItem="NzI-SC-k3c" secondAttribute="leading" constant="12" id="1Xz-Pd-Vvr"/>
+                                                    <constraint firstItem="3et-lv-e14" firstAttribute="top" secondItem="NzI-SC-k3c" secondAttribute="top" id="R8i-JB-xQ4"/>
+                                                    <constraint firstAttribute="trailing" secondItem="3et-lv-e14" secondAttribute="trailing" constant="2" id="YxV-Rn-o5G"/>
+                                                    <constraint firstAttribute="height" constant="22" id="m0l-Qm-bsb"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEv-OZ-Vhr">
+                                                <rect key="frame" x="0.0" y="27" width="98.5" height="22"/>
+                                                <fontDescription key="fontDescription" name="NunitoSans-12ptExtraLight_Regular" family="Nunito Sans" pointSize="16"/>
+                                                <color key="textColor" systemColor="systemGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="NzI-SC-k3c" firstAttribute="leading" secondItem="7p3-NQ-6Au" secondAttribute="leading" id="4ex-Ol-Ph6"/>
+                                            <constraint firstAttribute="trailing" secondItem="NzI-SC-k3c" secondAttribute="trailing" id="QI9-zd-ZXe"/>
+                                            <constraint firstItem="NzI-SC-k3c" firstAttribute="top" secondItem="7p3-NQ-6Au" secondAttribute="top" id="Tfh-C3-msr"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EUb-OO-cdD" firstAttribute="leading" secondItem="89v-HQ-lfg" secondAttribute="leading" constant="15" id="G62-yN-1x8"/>
+                            <constraint firstAttribute="trailing" secondItem="EUb-OO-cdD" secondAttribute="trailing" constant="15" id="RtW-Sy-l7S"/>
+                            <constraint firstItem="EUb-OO-cdD" firstAttribute="top" secondItem="89v-HQ-lfg" secondAttribute="top" constant="10.75" id="mfS-5b-57H"/>
+                            <constraint firstAttribute="bottom" secondItem="EUb-OO-cdD" secondAttribute="bottom" constant="10.75" id="wF3-1D-BtO"/>
+                            <constraint firstAttribute="height" constant="75" id="wVJ-2c-g1Y"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="89v-HQ-lfg" secondAttribute="bottom" constant="10" id="2r0-4j-Myu"/>
+                    <constraint firstItem="89v-HQ-lfg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Qmx-b3-DXF"/>
+                    <constraint firstItem="89v-HQ-lfg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="cMa-Am-i3M"/>
+                    <constraint firstAttribute="trailing" secondItem="89v-HQ-lfg" secondAttribute="trailing" constant="10" id="sFc-ew-YLO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountLabel" destination="3et-lv-e14" id="k2p-t4-g8L"/>
+                <outlet property="creditLabel" destination="zEv-OZ-Vhr" id="VkK-ru-ZiJ"/>
+                <outlet property="dateLabel" destination="5TL-j3-gfC" id="GFx-ew-Lfs"/>
+                <outlet property="topUpLabel" destination="zhC-XW-xb7" id="cOa-ke-VVk"/>
+                <outlet property="upiLabel" destination="vjJ-cG-VCs" id="uAX-dB-TRw"/>
+                <outlet property="view" destination="89v-HQ-lfg" id="SfJ-Q9-0yD"/>
+            </connections>
+            <point key="canvasLocation" x="-68.840579710144937" y="56.584821428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
